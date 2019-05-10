@@ -525,7 +525,9 @@ class AuthCompat:
             'mkhomedir'        : 'with-mkhomedir',
             'faillock'         : 'with-faillock',
             'pamaccess'        : 'with-pamaccess',
-            'winbindkrb5'      : 'with-krb5'
+            'winbindkrb5'      : 'with-krb5',
+            'winbindcache'     : 'with-winbind-cache',
+            'krb5cache'        : 'with-krb5-cache'
         }
 
         # Read current configuration first.
